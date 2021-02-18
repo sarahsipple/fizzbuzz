@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>How to FizzBuzz</title>
+        <link rel="stylesheet" type="text/css" href="./styles.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Open+Sans&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <h1>FizzBuzz</h1>
+            <p>Lets Fizz and Buzz! Enter in Two Numbers and the output will "Fizz" with multiples of Value 1 and "Buzz" with multiples of Value 2. When you're really fancy, it will "FizzBuzz" with multiples of both numbers</p>
+            <h2>Value 1:</h2>
+            <input type="number" class="value-input" id="fizzvalue" value="3" name="Value1">
+            <h2>Value 2:</h2>
+            <input type="number" class="value-input" id="buzzvalue" value="5" name="Value2">
+            <div></div>
+            <input type="submit" class="style-submit" value="FizzBuzz This" onClick="buzzMe()">
+
+            <h2>Results:</h2>
+            <p id="results"></p>
+        </div>
+        <script src="./fizzbuzz.js"></script>
+    </body>
+</html>
